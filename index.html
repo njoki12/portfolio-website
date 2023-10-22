@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Maina Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4a88b385e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div id="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div id="header-text">
+                <p>Web/App Designer</p>
+                <h1>Hello, I'm <span>Rose </span><br>Maina from Daystar University</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/img2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Am Rosemary Njoki Maina</p>
+                <p> Am a christian and a student at
+                     Daystar University majoring in Diploma in Information and Communication Technology.
+                     Also I am a front-end web developer.</p>
+                     <p> Born in January 4th 2004 in Nairobi,Kenya</p>
+                     
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web</span><br> Designing interfaces</li>
+                            <li><span>Web development</span><br> Designing interfaces</li>
+                            <li><span>App development</span><br>Building Android/IOS apps</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 15-August 15 2023</span><br>Internship at St Nicholas College</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Current</span><br>Diploma at Daystar University</li>
+                            <li><span>2018-2022</span><br>Kijabe Girls High School</li>
+                            <li><span>2013-2017</span><br>Kinale Achievers schools</li>
+                            <li><span>2009-2012</span><br>Benrose Academy</li>
+                        </ul>
+                     </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- -----------services----------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p1>Galatians 6:4-6<br>But let each one test his own work,<br>
+                     and then his reason to boast will be in himself<br> alone and not in his neighbor.<br> 
+                     For each will have to bear his own load.Let the one <br>who is taught the word share
+                      all good things with the one who teaches.</p1>
+                      <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App development</h2>
+                <p1>Galatians 6:4-6<br>But let each one test his own work,<br>
+                     and then his reason to boast will be in himself<br> alone and not in his neighbor.<br> 
+                     For each will have to bear his own load.Let the one <br>who is taught the word share
+                      all good things with the one who teaches.</p1>
+                      <a href="#">learn more</a>
+            </div>
+            
+
+        </div>
+
+    </div>
+
+</div>
+ <!-- -----------portfolio----------- -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="IMAGES/img8.jpg">
+                <div class="layer">
+                    <h3>Mydaktari App</h3>
+                    <p>This app helps you to find a doctor incase of
+                        any consultation.Download it from your play/App store</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="IMAGES/img7.jpg">
+                <div class="layer">
+                <h3>Security App</h3>
+                <p>This app helps you to reach out to your 
+                    emergency contacts incase you are in danger,
+                    by shaking your phone.
+                    Download it from your play/App store</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+ </div>
+<!-- -----------contact----------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i>njokirosella@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0743379805</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="IMAGES/Rose Njoki CV.docx"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Rose Njoki.Made with<i class="fa-sharp fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw7ItrLIrfh8mxhBF-741eLzrzNxDmJeQ5d5KiCJkWXXengGCm3_QlVC3nnWhTNMrf-/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
